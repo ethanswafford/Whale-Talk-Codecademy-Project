@@ -13,3 +13,10 @@ let whaleTalk = ['a', 'e', 'i', 'o', 'u'];
 // This will serve as a place to store the vowels from the input string.
 
 let resultArray = [];
+
+// Create a loop to iterate through each letter of the input variable text.
+// In a later step, we will compare each letter with our vowels array.
+
+for (i = 0; i < input.length; i++) {
+    console.log(input[i]);
+}
