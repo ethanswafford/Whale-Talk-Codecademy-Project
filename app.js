@@ -18,5 +18,5 @@ let resultArray = [];
 // In a later step, we will compare each letter with our vowels array.
 
 for (i = 0; i < input.length; i++) {
-    console.log(input[i]);
+    console.log('i is ' + i);
 }
