@@ -29,13 +29,19 @@ let resultArray = [];
 // Note: To check that everything is working properly, log letter matches to the console.
 
 
+// Now instead of just logging the letters, add them to the results array.
+// Note: To check your work use console.log() to print your resultArray.
+// The letters you logged to the console in step 8 should be now included in your resultArray.
+
+
 
 for (i = 0; i < input.length; i++) {
     //console.log('i is ' + i);
     for (c = 0; c < whaleTalk.length; c++) {
         //console.log(`c index is ${c}`);
         if (input[i] === whaleTalk[c]) {
-            console.log(input[i])
+            //console.log(input[i])
+            resultArray.push(input[i]);
         }
     }
 }
