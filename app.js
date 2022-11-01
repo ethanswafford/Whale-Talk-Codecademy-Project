@@ -22,8 +22,12 @@ let resultArray = [];
 // Make the inner loop iterate through the vowels array each time the outer loop runs.
 // This will enable you to check each letter of input against all the vowels elements during each iteration.
 
-// To check your work, log the iterator number positions inside the inner for loop and run your code. 
+// To check your work, log the iterator number positions inside the inner for loop and run your code.
 // You should see 0 through 4 repeatedly because vowels is 5 elements long.
+
+// Inside the second for loop, write a code block that compares the input letter to every letter in the vowels array.
+// Note: To check that everything is working properly, log letter matches to the console.
+
 
 
 for (i = 0; i < input.length; i++) {
