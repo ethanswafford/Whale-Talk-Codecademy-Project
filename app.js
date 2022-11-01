@@ -17,6 +17,15 @@ let resultArray = [];
 // Create a loop to iterate through each letter of the input variable text.
 // In a later step, we will compare each letter with our vowels array.
 
+
+// Create a nested for loop inside of the for loop you just wrote.
+// Make the inner loop iterate through the vowels array each time the outer loop runs.
+// This will enable you to check each letter of input against all the vowels elements during each iteration.
+
+
 for (i = 0; i < input.length; i++) {
     console.log('i is ' + i);
+    for (c = 0; c < whaleTalk.length; c++) {
+
+    }
 }
