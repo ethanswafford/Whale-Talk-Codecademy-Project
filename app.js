@@ -39,10 +39,15 @@ let resultArray = [];
 // Note: This statement belongs before the inner for loop block inside the outer for loop.
 // This is because you only want to perform this check once for every letter in the input.
 
+// Next, you want to double the letter u.
+
 
 for (i = 0; i < input.length; i++) {
     //console.log('i is ' + i);
     if (input[i] === 'e') {
+        resultArray.push(input[i]);
+    }
+    if (input[i] === 'u') {
         resultArray.push(input[i]);
     }
     for (c = 0; c < whaleTalk.length; c++) {
