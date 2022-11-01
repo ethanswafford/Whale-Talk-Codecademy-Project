@@ -22,10 +22,13 @@ let resultArray = [];
 // Make the inner loop iterate through the vowels array each time the outer loop runs.
 // This will enable you to check each letter of input against all the vowels elements during each iteration.
 
+// To check your work, log the iterator number positions inside the inner for loop and run your code. 
+// You should see 0 through 4 repeatedly because vowels is 5 elements long.
+
 
 for (i = 0; i < input.length; i++) {
     console.log('i is ' + i);
     for (c = 0; c < whaleTalk.length; c++) {
-
+        console.log(`c index is ${c}`);
     }
 }
