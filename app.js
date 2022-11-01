@@ -27,8 +27,11 @@ let resultArray = [];
 
 
 for (i = 0; i < input.length; i++) {
-    console.log('i is ' + i);
+    //console.log('i is ' + i);
     for (c = 0; c < whaleTalk.length; c++) {
-        console.log(`c index is ${c}`);
+        //console.log(`c index is ${c}`);
+        if (input[i] === whaleTalk[c]) {
+            console.log(input[i])
+        }
     }
 }
