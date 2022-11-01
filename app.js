@@ -43,6 +43,10 @@ let resultArray = [];
 
 // At the bottom of the program, log the resultArray to the console.
 
+// Currently, resultArray outputs an array of characters. To produce proper whale language, we want to capitalize the array elements and put them together as one string.
+// Declare a variable resultString that joins our resultArray into a single string and capitalizes all of its letters.
+
+
 
 for (i = 0; i < input.length; i++) {
     //console.log('i is ' + i);
@@ -60,4 +64,7 @@ for (i = 0; i < input.length; i++) {
         }
     }
 }
-console.log(resultArray);
+// console.log(resultArray);
+
+const resultString = resultArray.join('').toUpperCase();
+console.log(resultString);
