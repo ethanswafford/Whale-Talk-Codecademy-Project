@@ -41,6 +41,8 @@ let resultArray = [];
 
 // Next, you want to double the letter u.
 
+// At the bottom of the program, log the resultArray to the console.
+
 
 for (i = 0; i < input.length; i++) {
     //console.log('i is ' + i);
@@ -58,3 +60,4 @@ for (i = 0; i < input.length; i++) {
         }
     }
 }
+console.log(resultArray);
